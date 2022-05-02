@@ -3,6 +3,7 @@ public class HelloWorld {
         int Stas;
         Stas = 600;
         System.out.println(Stas);
+        String s = "test";
     }
 
 
