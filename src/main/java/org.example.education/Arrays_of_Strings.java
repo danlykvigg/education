@@ -16,7 +16,7 @@ public class Arrays_of_Strings {
         for(String string:strings){
             System.out.println(string);
         }
-        int[] numbers1 = {1,2,3};
+        int[] numbers1 = {1,2,3,4};
         int sum = 0;
         for(int x:numbers1){
             sum = sum+x;
