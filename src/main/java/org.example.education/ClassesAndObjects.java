@@ -3,22 +3,24 @@ package org.example.education;
 public class ClassesAndObjects {
     public static void main(String[] args){
         Person person1 = new Person();
-        person1.name = "Алиса";
-        person1.age = 11;
+        person1.setNameAndAge("Алиса",11);
+        String s1 = "Даня";
         Person person2 = new Person();
-        person2.name = "Даня";
-        person2.age = 13;
-        int year1 = person1.calculateYearsToRetirement();
-        int year2 = person2.calculateYearsToRetirement();
-        System.out.println("Первому человеку до пенси: "+year1+" лет.");
-        System.out.println("Второму человеку до пенси: "+year2+" лет.");
-
+        person2.setNameAndAge(s1,12);
+        person1.speak();
+        person2.speak();
     }
 }
 
 class Person{
    String name;
    int age;
+
+
+   void setNameAndAge(String username, int userage){
+       name = username;
+       age = userage;
+   }
 
    int calculateYearsToRetirement(){
        int years = 65-age;
