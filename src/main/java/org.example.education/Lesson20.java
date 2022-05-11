@@ -7,6 +7,7 @@ public class Lesson20 {
 }
 
 class people {
+
     private String name;
     private int age;
 
