@@ -2,36 +2,23 @@ package org.example.education;
 
 public class Lesson20 {
     public static void main(String[] args) {
-        people people1 = new people();
+        People p1 = new People("Bob", 40);
+        System.out.println(p1);
+
     }
 }
 
-class people {
-
+class People {
     private String name;
     private int age;
 
-    public people(){
-        this.name = "Имя по умолчанию";
-        this.age = 0;
+    public People(String name, int age){
+    this.name = name;
+    this.age = age;
     }
 
-    public people(String name){
-        System.out.println("Пиривет из второго конструктора");
-        this.name = name;
+    public String toString(){
+        return name+","+age;
     }
 
-    public people(String name, int age){
-        System.out.println("Пиривет из третьего конструктора");
-        this.name = name;
-        this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 }
