@@ -14,7 +14,7 @@ public class Exception1 {
     }
 
     public static void readFile() throws FileNotFoundException {
-        File file = new File("test1");
+        File file = new File("src/test1");
         Scanner scanner = new Scanner(file);
     }
 }

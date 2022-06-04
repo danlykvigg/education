@@ -1,4 +1,4 @@
-package org.example.education;
+package ru.example.education;
 
 public class Break_Continue {
     public static void main(String[] args) {

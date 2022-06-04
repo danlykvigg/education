@@ -1,4 +1,4 @@
-package ru.example.education.interfaces;
+package ru.example.education.lesson35.interfaces;
 
 import ru.example.education.Info;
 

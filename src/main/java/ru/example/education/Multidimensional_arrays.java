@@ -1,4 +1,4 @@
-package org.example.education;
+package ru.example.education;
 
 public class Multidimensional_arrays {
     public static void main(String[] args) {
