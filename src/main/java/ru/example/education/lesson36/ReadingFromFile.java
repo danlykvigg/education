@@ -1,6 +1,5 @@
 package ru.example.education.lesson36;
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -8,7 +7,7 @@ import java.util.Scanner;
 
 public class ReadingFromFile {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("test2");
+        File file = new File("test2.txt");
 
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
