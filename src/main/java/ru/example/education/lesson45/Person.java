@@ -3,12 +3,19 @@ package ru.example.education.lesson45;
 import java.io.Serializable;
 
 public class Person implements Serializable {
+
+    private static final long serialVersionUID = -339953568979759774L;
+
     private int id;
-    private String name;
+    private String PersonName;
+    private int age;
+    private  byte type;
+
+
 
     public Person(int id, String name) {
         this.id = id;
-        this.name = name;
+        this.PersonName = name;
     }
 
     public int getId() {
@@ -16,10 +23,10 @@ public class Person implements Serializable {
     }
 
     public String getName() {
-        return name;
+        return PersonName;
     }
 
     public String toString() {
-        return id + " : " + name;
+        return id + " : " + PersonName;
     }
 }
