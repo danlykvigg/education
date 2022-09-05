@@ -1,13 +1,19 @@
 package ru.example.education.lesson45;
 
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 
 public class WriteObject {
     public static void main(String[] args) {
-        Person person1 = new Person(1, "Mike");
+        Person[] people = {new Person(1, "Mike"),new Person(2, "Bob"), new Person(3, "Tom")};
 
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("people.bin"))){
-            oos.writeObject(person1);
+        try {
+            FileOutputStream fos = new FileOutputStream("people.bin");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+            oos.writeObject(people);
+            fos.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
