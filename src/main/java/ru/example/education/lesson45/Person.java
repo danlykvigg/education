@@ -4,13 +4,12 @@ import java.io.Serializable;
 
 public class Person implements Serializable {
 
-    private static final long serialVersionUID = -339953568979759774L;
+    private static final long serialVersionUID = 339953568979759774L;
 
     private int id;
     private String PersonName;
     private int age;
-    private  byte type;
-
+    private byte type;
 
 
     public Person(int id, String name) {
