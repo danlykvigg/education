@@ -10,9 +10,6 @@ public class Exceptions4 {
             run();
         } catch (Exception e) {
 
-        } catch(ParseException p) {
-
-
         }
     }
 
