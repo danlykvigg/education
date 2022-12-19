@@ -6,7 +6,7 @@ public class Lesson23 {
         System.out.printf("String %.2f \n", 45.32);
         System.out.printf("String %.2f \n", 45.33754);
         System.out.printf("String %.2f \n", 45.322652636);
-        System.out.printf("String %.2f \n", 45.337);
+        System.out.printf("String %.2f \n", 45.338);
         //% -[10][.42]
     }
 }
