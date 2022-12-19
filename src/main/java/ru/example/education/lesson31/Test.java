@@ -2,7 +2,7 @@ package ru.example.education.lesson31;
 
 public class Test {
     public static void main(String[] args) {
-        int x = 1;
+        int р = 1;
 
         Integer x2 = 123;
         int y = x2;
