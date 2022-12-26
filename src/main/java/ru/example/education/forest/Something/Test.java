@@ -4,7 +4,7 @@ import ru.example.education.Packet1.Person;
 
 class Test extends Person {
 
-    public Test(){
+    public Test() {
         name = "Tom";
     }
 
