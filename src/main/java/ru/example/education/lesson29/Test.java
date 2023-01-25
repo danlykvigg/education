@@ -11,7 +11,7 @@ public class Test {
       test(cat);
     }
 
-    public static void test(Animal animal) {
+    public static void test(Animal animal){
         animal.eat();
     }
 }

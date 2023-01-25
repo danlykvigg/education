@@ -2,11 +2,11 @@ package ru.example.education.lesson29;
 
 public class Dog extends Animal {
     @Override
-    public void eat(){
-        System.out.println("Dog is eating...");
+    public void eat() {
+        System.out.println("Dog is eating");
     }
 
-  public void bark(){
+  public void bark() {
       System.out.println("Dog is barking");
   }
 }
